@@ -1,0 +1,16 @@
+package com.syntax.class01;
+
+public class TestCode {
+
+  	public static void main(String[] args) {
+  		
+  		int a = 29;
+  		int b = 4;
+  		int c = a%b;
+  		
+  		System.out.println(c);
+
+  
+      }
+  	
+}

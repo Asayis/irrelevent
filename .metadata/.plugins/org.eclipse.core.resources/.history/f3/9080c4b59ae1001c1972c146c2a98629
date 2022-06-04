@@ -1,0 +1,40 @@
+package Playaround;
+
+import java.util.Scanner;
+
+public class playaround3 {
+
+	public static void main(String[] args) {
+	int a=0,b=1,c=2,d=3,e=4,f=5, g=6, h=7, i=8, j=9, k=10;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter number:");
+		int aa=scan.nextInt();
+		
+		
+		
+		if (scan.nextInt()==a) {
+			System.out.println("zero");
+		} else if (scan.nextInt()==b) {
+			System.out.println("one");
+		}else if (scan.nextInt()==c) {
+			System.out.println("two");
+		}else if (scan.nextInt()==d) {
+			System.out.println("three");
+		}else if (scan.nextInt()==e) {
+			System.out.println("four");
+		}else if (scan.nextInt()==f) {
+			System.out.println("five");
+		}else if (scan.nextInt()==g) {
+			System.out.println("six");
+		}else if (scan.nextInt()==h) {
+			System.out.println("seven");
+		}else if (scan.nextInt()==i) {
+			System.out.println("eight");
+		}else if (scan.nextInt()==j) {
+			System.out.println("nine");
+		}else if (scan.nextInt()==k) {
+			System.out.println("ten");
+		}
+		
+}
+}

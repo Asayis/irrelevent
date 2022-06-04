@@ -1,0 +1,16 @@
+package Playaround;
+
+public class loopsPlayaround {
+
+	public static void main(String[] args) {
+	
+		int a = 0;
+		
+		while (a>100)
+			System.out.print(a);
+			a++;
+			
+			System.out.println("loop finihsed");
+	}
+
+}

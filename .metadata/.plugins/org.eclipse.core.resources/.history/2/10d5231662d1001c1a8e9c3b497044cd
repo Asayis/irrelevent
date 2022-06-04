@@ -1,0 +1,20 @@
+package com.syntax.class01;
+import java.util.Scanner;
+public class TestCode {
+
+  	private static String name;
+
+	public static void main(String[] args) {
+  		
+		Scanner EUA = new Scanner (System.in);
+		System.out.println("Enter your age:");
+		
+		int age = EUA.nextInt();
+		int ten =10;
+		
+		System.out.println(EUA+ten);
+
+  
+      }
+  	
+}

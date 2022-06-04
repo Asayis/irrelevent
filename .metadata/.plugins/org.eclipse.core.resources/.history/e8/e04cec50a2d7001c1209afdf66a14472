@@ -1,0 +1,32 @@
+package com.syntax.class06;
+
+import java.util.Scanner;
+
+public class PlayAround {
+	  
+	public static void main (String [] args) {
+		
+		Scanner scan = new Scanner(System.in);
+				  System.out.println("Please enter your favorite car make");
+				  String  = scan.next();
+				  String carOrigin="null";
+				  
+				  switch (carOrigin) {
+
+				    case ("BMW"):
+				    	carOrigin = "german car";
+				    break;
+				    
+				    case ("Toyota "):
+				    	carOrigin = "japanese car";
+				    break;
+				    
+				    case ("Maserati"):
+				    	carOrigin = "italian car";
+				    break;
+				    default:
+				    	System.out.println("Your favorite car is"+carOrigin);
+				    
+				  }
+				}
+				}

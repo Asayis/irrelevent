@@ -1,0 +1,39 @@
+package Playaround;
+
+import java.util.Scanner;
+
+public class playaround3 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter your genitals:");	
+		String genitals = scan.next();
+		
+		if (genitals.equalsIgnoreCase("dick")  || genitals.equalsIgnoreCase("cock") ) {
+			
+			System.out.println("what is your dick size");
+			int dicksize = scan.nextInt(); 
+				if (dicksize>=1 && dicksize<=4) {
+					System.out.println("are you chinese");
+				}
+			
+			
+			
+		} else if (genitals.equalsIgnoreCase("pussy")) {}
+		
+		
+			
+				
+			
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

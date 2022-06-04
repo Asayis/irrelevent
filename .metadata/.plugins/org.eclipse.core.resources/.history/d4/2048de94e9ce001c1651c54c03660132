@@ -1,0 +1,15 @@
+package com.syntax.class04;
+
+public class Task01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean negative = true;
+		
+		if (negative == false) {
+			System.out.println("positive");} 
+		
+		else {System.out.println("negative");}
+	}
+
+}

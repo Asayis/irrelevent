@@ -1,0 +1,13 @@
+package com.syntax.class04;
+
+public class Task01 {
+
+	public static void main(String[] args) {
+		int input1 =0;
+		
+		if (input1>0) {System.out.println("positive");}
+		else if (input1<input1){System.out.println("negative");}
+		
+	}
+
+}

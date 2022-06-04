@@ -1,0 +1,29 @@
+package com.syntax.class09;
+
+public class HomeWork3StoreDouble {
+
+	public static void main(String[] args) {
+		
+		double[] a = new double[5];
+		double[] b = new double[5];
+		
+		a[0]= 2.99;
+		a[1]= 4.99;
+		a[2]= 6.99;
+		a[3]= 8.99;
+		a[4]= 10.99;
+		for (double a1:a) {
+			System.out.print(a1);}
+		
+			b[0]= 112.99;
+			b[1]= 114.99;
+			b[2]= 116.99;
+			b[3]= 118.99;
+			b[4]= 1110.99;
+		
+			for (double b1:b) {
+				System.out.print(b1);}
+		}
+	}
+
+

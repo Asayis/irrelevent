@@ -1,0 +1,26 @@
+package com.syntax.class01;
+import java.util.Scanner;
+public class TestCode {
+
+  	public static void main(String[] args) {
+  		
+  		
+  		    Scanner Q22 = new Scanner(System.in);
+
+  		    System.out.println("Enter name, age and salary:");
+
+  		    String name = Q22.nextLine();
+
+  		    int age = Q22.nextInt();
+  		    double salary = Q22.nextDouble();
+
+  		    // Output input by user
+  		    System.out.println("Name: " + name);
+  		    System.out.println("Age: " + age);
+  		    System.out.println("Salary: " + salary);
+		
+
+  
+      }
+  	
+}

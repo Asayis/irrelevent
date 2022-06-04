@@ -1,0 +1,19 @@
+package com.syntax.class01;
+import java.util.Scanner;
+public class TestCode {
+
+  	public static void main(String[] args) {
+  		
+		Scanner EUA = new Scanner (System.in);
+		System.out.println("Enter your age:");
+		
+		int age = EUA.nextInt();
+		int num1 = (age)+10;
+		
+		System.out.println("Your age after 10 years is "+(age+10));
+		
+
+  
+      }
+  	
+}

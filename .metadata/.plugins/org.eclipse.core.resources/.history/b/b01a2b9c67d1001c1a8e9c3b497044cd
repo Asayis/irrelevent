@@ -1,0 +1,22 @@
+package com.syntax.class01;
+
+import java.util.Scanner;
+
+public class TestCode {
+
+	public static void main(String[] args) {
+
+		Scanner Q22 = new Scanner(System.in);
+
+		System.out.println("Enter name:");
+
+		int age = Q22.nextInt();
+		double phonenumber = Q22.nextDouble();
+		
+		System.out.println("Enter age:" + age);
+		System.out.println("Enter your mobile number:"+phonenumber);
+
+
+	}
+
+}

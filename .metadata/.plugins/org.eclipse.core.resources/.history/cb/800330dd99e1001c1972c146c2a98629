@@ -1,0 +1,38 @@
+package Playaround;
+
+import java.util.Scanner;
+
+public class playaround3 {
+
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+
+		int a =1, b=2, c=3;
+		
+		
+		if (a==1) {
+			System.out.println("if is "+a);
+		}
+		
+		if (b==2) {
+			System.out.println("if is not "+b);
+		} 
+		
+		
+		
+		if (c<a) {
+			System.out.println("right");
+			
+		} else if (c==1) {
+			System.out.println(c+" is bigger than "+b); 
+		
+		}else {
+			System.out.println("nothing else matters");
+		}
+			
+		}
+		
+}
+
+

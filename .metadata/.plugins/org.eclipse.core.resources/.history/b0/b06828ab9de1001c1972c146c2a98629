@@ -1,0 +1,42 @@
+package Playaround;
+
+import java.util.Scanner;
+
+public class playaround3 {
+
+	public static void main(String[] args) {
+	int a=0,b=1,c=2,d=3,e=4,f=5, g=6, h=7, i=8, j=9, k=10;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter number:");
+		int aa=scan.nextInt(), ab=scan.nextInt(), ac=scan.nextInt(), ad=scan.nextInt(), ae=scan.nextInt();
+		
+		if (aa==a) {
+			System.out.println("zero");
+		}else if (aa+ab+ac+ad+ae==b) {
+			System.out.println("one");
+		}else if (aa==c) {
+			System.out.println("two");
+		}else if (aa==d) {
+			System.out.println("three");
+		}else if (aa==e) {
+			System.out.println("four");
+		}else if (aa==f) {
+			System.out.println("five");
+		}else if (aa==g) {
+			System.out.println("six");
+		}else if (aa==h) {
+			System.out.println("seven");
+		}else if (aa==i) {
+			System.out.println("eight");
+		}else if (aa==j) {
+			System.out.println("nine");
+		}else if (aa==k) {
+			System.out.println("ten");
+		} else if (aa>k) {
+			System.out.println("higher than 10");
+		} else {
+			System.out.println("did you enter a negative");
+		}
+		
+}
+}

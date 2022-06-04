@@ -1,0 +1,22 @@
+
+public class Task1 {
+
+	public static int main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int [] numbers= {1, 21, 235, 1351, 12, 6}; {
+			
+			
+		int max=numbers[0];
+		
+		for (int Jerry =1; Jerry<numbers.length; Jerry++) {
+            if (numbers[max] > max)
+                max = numbers[Jerry];
+         
+        return max;
+		}
+		}
+
+	}
+
+}

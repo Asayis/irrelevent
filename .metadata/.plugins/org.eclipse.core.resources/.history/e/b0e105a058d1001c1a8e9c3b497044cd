@@ -1,0 +1,19 @@
+package com.syntax.class01;
+
+class Main {
+
+  	public static void main(String[] args) {
+  		
+  		int myNumber = 1;
+  		int stepOne = (myNumber*myNumber);
+  		int stepTwo = (myNumber*myNumber)+stepOne;
+  		int stepThree = (myNumber*myNumber+stepOne)/myNumber;
+  		int stepFour = (myNumber*myNumber+stepOne/myNumber)+17;
+  		int stepFive = (myNumber*myNumber+stepOne/myNumber+17)-myNumber;
+  		int stepFive = (myNumber*myNumber+stepOne/myNumber+17-myNumber);
+  		
+
+  
+      }
+  	
+}

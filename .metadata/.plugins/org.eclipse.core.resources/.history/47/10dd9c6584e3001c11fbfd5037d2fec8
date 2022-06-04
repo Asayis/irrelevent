@@ -1,0 +1,15 @@
+package Playaround;
+
+public class loopsPlayaround {
+
+	public static void main(String[] args) {
+	
+		for (int a =0; a < 100; a++) {
+			System.out.println(a);
+		}
+			
+		}
+		System.out.println("loop is finished");
+	}
+
+}

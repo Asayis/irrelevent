@@ -1,0 +1,24 @@
+package projectOne;
+
+import java.util.Scanner;
+
+public class Task1 {
+
+	public static void main(String[] args) {
+		Scanner inp= new Scanner(System.in);
+		System.out.println("Please type in 5 numbers below and I will add the sum");
+		/*
+		.Using Scanner creates an array of integer values. 
+		After the array is created, calculate the sum of all stored elements in that array.
+		*/
+		
+		int[] a = new int[5]; int sum=0;
+		
+		for(int b=0; b<a.length;b++) {  a[b]=inp.nextInt();  }
+			
+		for(int d:a) { sum+=d; }
+		System.out.println("Your total would be "+sum);
+
+	}
+
+}

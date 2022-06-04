@@ -1,0 +1,31 @@
+package com.syntax.class04;
+
+public class IfElseIfBooleanMothersDay {
+
+	public static void main(String[] args) {
+		
+		System.out.println("-------1-------");
+		
+		boolean motherDays = true;
+		
+-		if (motherDays == true) {
+			System.out.println("Happy Mother's day to all Mums");} 
+		
+		else {System.out.println("hello");}
+		
+		System.out.println("-------2-------");
+
+		boolean rain = false;
+		if (rain)
+		{System.out.println("i will take an umbrella");}
+		{System.out.println("No need for umbrella");}
+		
+		System.out.println("--------3------");
+		
+		boolean breaktime = true;
+		if (breaktime) {System.out.println("let's take a break");}
+		else {System.out.println("I am going to study");}
+		
+		System.out.println("--------4------");
+}
+}

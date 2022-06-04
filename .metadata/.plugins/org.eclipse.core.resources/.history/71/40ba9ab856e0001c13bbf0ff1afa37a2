@@ -1,0 +1,16 @@
+package Replit;
+
+public class HomeWork68 {
+
+	public static void main(String[] args) {
+		
+	for (int a = 7; a>=1; a--) {
+		for (int i=1; i<a; i++)
+		System.out.println(i);
+	
+	}
+}
+
+}
+	
+

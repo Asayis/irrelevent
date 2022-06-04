@@ -1,0 +1,22 @@
+package com.syntax.class04;
+
+public class IfElseIfBooleanMothersDay {
+
+	public static void main(String[] args) {
+		
+		boolean motherDays = true;
+		
+		if (motherDays == true) {
+			System.out.println("Happy Mother's day to all Mums");} 
+		
+		else {System.out.println("hello");}
+		
+		System.out.println("--------------");
+
+		boolean rain = false;
+		if (rain)
+		{System.out.println("i will take an umbrella");}
+		{System.out.println("No need for umbrella");}
+		
+}
+}

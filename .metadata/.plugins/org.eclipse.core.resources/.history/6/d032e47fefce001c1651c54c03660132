@@ -1,0 +1,19 @@
+package com.syntax.class04;
+
+public class NestedIf {
+
+	public static void main(String[] args) {
+
+		boolean vaccine = true;
+		int dose = 1;
+
+		if (vaccine) {
+			System.out.println("how many doses did you have?");
+		}
+		if (dose == 0) {
+			System.out.println("you need one more");
+
+		}
+
+	}
+}

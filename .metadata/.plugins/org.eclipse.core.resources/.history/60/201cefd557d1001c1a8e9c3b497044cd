@@ -1,0 +1,27 @@
+package com.syntax.class01;
+
+public class TestCode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.print("I am a Java Programmer. I study at Syntax.");
+
+		System.out.println("I study at Syntax.");
+
+		System.out.println("I am trying love Java!");
+
+		System.out.println("!!!");
+		
+		  int height = 8;
+		  int width = 5;
+		  
+		 int  area = width*height;
+		 int  lollipop = width+height;
+		  
+
+		  System.out.println("The perimeter of a rectangle with width "+width+" and height "+height+" is equals to "+lollipop+" and the area equals to "+area);
+
+	}
+
+}

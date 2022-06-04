@@ -1,0 +1,49 @@
+package Playaround;
+
+import java.util.Scanner;
+
+public class loopsPlayaround {
+
+	public static void main(String[] args) {
+		/*
+		 * Write a program to ask a user to enter item they want to buy -- DONE and the
+		 * price of that item. -- DONE Every time user enters money, accumulate the
+		 * amount and tell the user how much is left to pay off. If user give more money
+		 * program should return a change. Whenever a user done with payments program
+		 * should say "Thank you for shopping!"
+		 */
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter an Item you want?");
+		String item = scan.next();
+		System.out.println("you have " + item + ". Please add the price");
+		double price = scan.nextInt();
+		double accumulatedPayment = 0.00;
+
+		// variable needed acummulatedPayments payment price change
+		// (ItemPrice<accumulatedPayment) change=accumulatedPayments - price
+
+		while (accumulatedPayment <= price) {
+			if (accumulatedPayment == price) {
+				System.out.println("you have paid the complete amount of " + price + ". Thank you for shopping");
+				System.out.println("Oh yeah, by the way, would you like to donate");
+				String charity = scan.next();
+				
+				
+				if (charity=="yes") {
+					System.out.println("how much would you like to donate?");
+					int donate=scan.nextInt();
+				} else {
+					System.out.println("it's all good homie");
+				}
+				
+			} else if (accumulatedPayment > price) {
+				double change = accumulatedPayment-price;
+				System.out.println(
+						"thank you for shopping. Here is your change, amounting in " +change);
+			}
+		}
+
+	}
+
+}

@@ -1,0 +1,47 @@
+package Playaround;
+
+import java.util.Scanner;
+
+public class playaround3 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter your genitals:");
+		String genitals = scan.next();
+
+		if (genitals.equalsIgnoreCase("dick") || genitals.equalsIgnoreCase("cock")) {
+
+			System.out.println("what is your dick size");
+			int dicksize = scan.nextInt();
+			if (dicksize >= 1 && dicksize <= 4) {
+				System.out.println("look for a country that has similar vagina sizes and convince one to love you");
+			} else if (dicksize >= 5 && dicksize <= 10) {
+				System.out.println("okay! you are average");
+			} else if (dicksize >= 11) {
+				System.out.println("psst! let me know what you do?");
+			} else {
+				System.out.println("please make sure you are a male");
+			}
+
+		} 
+		
+		
+		if (genitals.equalsIgnoreCase("pussy") && genitals.equalsIgnoreCase("vagina")) {
+			System.out.println("how deep is your vagina's depth");
+		}
+
+		int pussysize = scan.nextInt();
+		if (pussysize >= 1 && pussysize <= 4) {
+			System.out.println("look for a country that has similar dick sizes and convince one to love you");
+		} else if (pussysize >= 5 && pussysize <= 10) {
+			System.out.println("okay! you are average and you'll be happy with the right dick size");
+		} else if (pussysize >= 11) {
+			System.out.println("wow! ermm... I do not know what to say");
+		} else {
+			System.out.println("Are you in process of getting your penis installation");
+		}
+
+	}
+
+}

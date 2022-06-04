@@ -1,0 +1,16 @@
+package Playaround;
+
+public class playaround3 {
+
+	public static void main(String[] args) {
+		int [] array = {45,78, 12, 67, 55, 89, 23, 77, 88};
+	      
+	      for (int newlist=0; newlist<array.length; newlist++)
+	      { //for (int reassign=0; newlist<reassign; reassign+=2)
+	      
+	System.out.print(array[newlist] + " ");  
+	}
+
+}
+
+}

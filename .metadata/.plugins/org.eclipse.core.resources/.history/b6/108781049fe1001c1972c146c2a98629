@@ -1,0 +1,38 @@
+package Playaround;
+
+import java.util.Scanner;
+
+public class playaround3 {
+
+	public static void main(String[] args) {
+	
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter number:");
+		int aa=scan.nextInt();
+		
+		if (aa>10 && aa<0) {
+		System.out.println();
+		} else if (aa==1) {
+			System.out.println("one");
+		} else if (aa==2) {
+			System.out.println("two");
+		} else if (aa==3) {
+			System.out.println("three");
+		} else if (aa==4) {
+			System.out.println("four");
+		} else if (aa==5) {
+			System.out.println("five");
+		} else if (aa==6) {
+			System.out.println("six");
+		} else if (aa==7) {
+			System.out.println("seven");
+		} else if (aa==8) {
+			System.out.println("eight");
+		} else if (aa==9) {
+			System.out.println("nine");
+		} else if (aa==10) {
+			System.out.println("ten");
+		} 
+
+}
+}

@@ -1,0 +1,32 @@
+package Playaround;
+
+import java.util.Scanner;
+
+public class Playaround5 {
+	public static void main(String[] args) {
+/*
+ 
+ TASK 1: create a scanner for user to input 2 colours red green or blue or yellow, based on 2 coulours let the out put be as .e.g yellow banana and green peas.
+TASK 2: input a number if the number is below 100 then devide by 2 and outpu print the result and if its above 100 then times it by 2 anf print result
+ */
+		
+		Scanner scan = new Scanner (System.in);
+		System.out.println("Please enter colour: (Red, Green, or blue");
+		String colour = scan.next();
+		
+		if (colour.equalsIgnoreCase(colour)); {
+			
+		System.out.println(colour);			
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+	}
+
+}

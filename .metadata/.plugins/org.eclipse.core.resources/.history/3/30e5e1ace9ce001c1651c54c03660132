@@ -1,0 +1,12 @@
+package com.syntax.class04;
+
+public class Task01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int input1 =20;
+		if (input1>23) {System.out.println("negative");}
+		else {System.out.println("positive");}
+	}
+
+}

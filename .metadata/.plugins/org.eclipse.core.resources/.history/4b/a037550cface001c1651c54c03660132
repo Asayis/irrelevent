@@ -1,0 +1,17 @@
+package com.syntax.class04;
+
+public class MoreNestedIf {
+
+	public static void main(String[] args) {
+	boolean didRepl=true;
+	
+	if (didRepl) {System.out.println("How many assignements have you done");
+	
+	} else {System.out.println("You should complete you Repl HW");}
+	
+	
+	
+
+}
+	
+}

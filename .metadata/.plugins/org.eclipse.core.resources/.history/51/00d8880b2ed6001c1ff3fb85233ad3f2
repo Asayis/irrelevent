@@ -1,0 +1,18 @@
+package Replit;
+import java.util.Scanner; 
+public class HomeWork35 {
+public static void main(String[] args) {
+		
+		   Scanner scan = new Scanner(System.in);
+		   System.out.println("Do you need a loan?");
+				boolean loan = scan.nextBoolean();
+
+			if (loan==true)
+			
+			{ if (loan >600); 
+			
+			
+			}
+	}
+
+}

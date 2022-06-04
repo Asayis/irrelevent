@@ -1,0 +1,14 @@
+package com.syntax.class01;
+
+public class TestCode {
+
+  	public static void main(String[] args) {
+  		
+  		double jerry = 500.4444; long Victor = (long) jerry;
+
+  	System.out.println(Victor);
+
+  
+      }
+  	
+}
